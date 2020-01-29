@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'blaze-html5video-safari',
+  name: 'jamgold:blaze-html5video-safari',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Deal with Mac OS X Safari HTML5 video element in Meteor Blaze',
