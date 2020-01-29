@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.9');
-  api.use(['templating', 'ecmascript'], 'client');
+  api.versionsFrom('1.6');
+  api.use(['templating@1.0.0', 'ecmascript'], 'client');
   api.mainModule('blaze-html5video-safari.js','client');
 });
 
