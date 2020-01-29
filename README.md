@@ -13,3 +13,9 @@ Here are the template parameters. The only mandatory one is `src`, the rest is o
   classes="img-fluid rounded-lg"
 }}
 ```
+
+You can add the package with 
+
+```
+meteor add jamgold:blaze-html5video-safari
+```
