@@ -1,0 +1,11 @@
+<template name='html5video'>
+  {{#if doBrowserCheck}}
+    <div id="video-parent" style="width:100%;height:100%;background-color:#999"> </div>
+  {{else}}
+    <video 
+      id="{{getData 'id'}}"
+      class="{{classes}}"
+      {{getData 'controls'}} {{getData 'loop'}} {{getData 'inline'}} {{getData 'autoplay'}}
+    > <source src="{{src}}" type="{{getData 'type'}}" /> </video>
+  {{/if}}
+</template>
