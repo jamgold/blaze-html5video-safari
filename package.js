@@ -16,9 +16,9 @@ Package.onUse(function(api) {
   api.mainModule('blaze-html5video-safari.js','client');
 });
 
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('blaze-html5video-safari');
-  api.mainModule('blaze-html5video-safari-tests.js');
-});
+// Package.onTest(function(api) {
+//   api.use('ecmascript');
+//   api.use('tinytest');
+//   api.use('jmangold:blaze-html5video-safari');
+//   api.mainModule('blaze-html5video-safari-tests.js');
+// });
